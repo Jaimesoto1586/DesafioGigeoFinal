@@ -1,0 +1,20 @@
+/*layout: main*/
+
+.inicio
+{
+    background-image: url('../images/image-banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+
+.container
+{
+    
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        grid-gap: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    
+}
